@@ -1,0 +1,109 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:link {
+  text-decoration: underline;
+  color: #24292e;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #24292e;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #24292e;
+}
+
+.ac-container {
+  width: 580px;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.ac-container label {
+  border: none;
+  padding: 12px 20px;
+  position: relative;
+  z-index: 20;
+  display: block;
+  height: 31.5px;
+  cursor: pointer;
+  color: #3f4448;
+  font-weight: normal;
+  line-height: 33px;
+  font-size: 20px;
+  background-color: #f6f8fa;
+  box-shadow: 0px 0px 0px 1px rgba(155, 155, 155, 0.3),
+    0px 2px 2px rgba(0, 0, 0, 0.1);
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+.ac-container i {
+  float: right;
+}
+
+.ac-container label span {
+  float: right;
+  font-size: 0.6em;
+  color: #24292e;
+}
+
+.ac-container label:hover {
+  background-color: #f6f8fa;
+  color: #24292e;
+}
+
+.ac-container input:checked + label,
+.ac-container input:checked + label:hover {
+  background-color: #f6f8fa;
+  color: #24292e;
+  transition: color 0.2s linear;
+  background: url('https://thumbs.gfycat.com/DimpledChubbyLamprey.webp')
+    no-repeat right;
+  background-size: 200px;
+}
+
+.ac-container label:hover:after,
+.ac-container input:checked + label:hover:after {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  right: 13px;
+  top: 7px;
+  color: #24292e;
+}
+
+.ac-container input {
+  display: none;
+}
+
+.ac-container article {
+  background-color: #f6f8fa;
+  margin-top: -1px;
+  overflow: hidden;
+  height: 0px;
+  position: relative;
+  z-index: 10;
+  -webkit-transition: height 0.4s ease-in-out, box-shadow 0.6s linear;
+}
+
+.ac-container article p {
+  color: #24292e;
+  line-height: 23px;
+  font-size: 15px;
+  padding: 0 10px;
+  margin-left: 10px;
+}
+
+.ac-container input:checked ~ article {
+  -webkit-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+}

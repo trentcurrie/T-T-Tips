@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "T&T Tips",
+  "description": "Git Cheat Sheet",
+  "version": "1.0.1",
+  "icons": {
+    "128": "icons/icon128.png",
+    "48": "icons/icon48.png",
+    "16": "icons/icon16.png"
+  },
+  "default_locale": "en",
+  "browser_action": {
+    "default_icon": {
+      "128": "icons/icon128.png",
+      "48": "icons/icon48.png",
+      "16": "icons/icon16.png"
+    },
+    "default_title": "T&T Tips",
+    "default_popup": "popup.html"
+  }
+}

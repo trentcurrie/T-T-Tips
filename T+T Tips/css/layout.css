@@ -1,0 +1,84 @@
+#mainPopup {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+label[for='ac-head'] {
+  font-size: 2.1em;
+  margin: 0;
+  background-color: #f6f8fa;
+  border: none;
+}
+
+label[for='ac-head']:hover {
+  font-size: 2.1em;
+  margin: 0;
+  background-color: #f6f8fa;
+  color: #24292e;
+  border: none;
+}
+
+.table {
+  width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 16px 0.5em;
+  padding: 0 2em 16px 0;
+  margin-left: 10px;
+}
+
+.table thead > tr > th,
+.table tbody > tr > th,
+.table tfoot > tr > th,
+.table thead > tr > td,
+.table tbody > tr > td,
+.table tfoot > tr > td {
+  line-height: 3;
+  vertical-align: middle;
+  border-top: 1.2px solid #c2c6ca;
+  font-size: 14px;
+  color: #24292e;
+}
+
+table tbody tr td:first-child {
+  width: 100%;
+  color: #24292e;
+  font-size: 14px;
+
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* table tbody tr td:first-child span:first-child {
+  color: #6b6f73;
+}
+
+table tbody tr td:first-child span:nth-child(2) {
+  color: #6b6f73;
+} */
+
+.ac-container div:nth-child(2) table tbody tr td:first-child {
+  width: 50%;
+}
+
+.ac-container input:checked#ac-head ~ article {
+  height: 100px;
+}
+
+.ac-container input:checked#ac-1 ~ article {
+  height: 450px;
+}
+
+.ac-container input:checked#ac-2 ~ article {
+  height: 250px;
+}
+
+.ac-container input:checked#ac-3 ~ article {
+  height: 450px;
+}
+
+.ac-container input:checked#ac-4 ~ article {
+  height: 275px;
+}
